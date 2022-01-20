@@ -110,7 +110,7 @@ body{
     top: 30px;
     right: 0px;
     bottom: 30px;
-    left: 50px;
+    left: 53px;
 
     background: linear-gradient(transparent, transparent 28px, #91d1d3 28px);
     background-size: 30px 30px;
@@ -144,9 +144,12 @@ body{
 }
 
 @media screen and (max-width:400px){
+    body{
+        max-height: 100vh;
+    }
     .cover, .paper{
         min-width: 280px;
-        max-width: 320px ;
+        max-width: 320px;
         margin-right: 30px;
     }
     .container{
